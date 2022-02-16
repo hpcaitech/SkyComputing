@@ -1,0 +1,16 @@
+matplotlib
+tqdm
+boto3
+scikit-image
+fastapi
+uvicorn
+pthflops==0.3.5
+torch==1.6.0
+torchvision==0.7.0
+psutil
+pyroute2
+requests
+loguru
+pulp
+mip
+ifaddr
