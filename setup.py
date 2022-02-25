@@ -18,14 +18,14 @@ def read_requirements():
 
 
 if __name__ == '__main__':
-    setup(name='dllb',
+    setup(name='scaelum',
           version='0.0.1',
-          description='Enable load balance for distributed deep learning training',
+          description='Accelerating Geo-distributed Computing in Federated Learning',
           long_description=readme(),
           long_description_content_type="text/markdown",
-          author='HPC-AI Inc.',
-          author_email='my_email',
-          url='my_github',
+          author='HPC-AI Technology Inc.',
+          author_email='contact@hpcaitech.com',
+          url='https://github.com/hpcaitech/SkyComputing',
           keywords='Python, scripts',
           packages=find_packages(),
           classifiers=[
