@@ -9,7 +9,7 @@ Sky Computing is a load-balanced framework for federated learning model parallel
 ```shell
 git clone git@github.com:hpcaitech/SkyComputing.git
 python -m pip install -r requirements.txt
-cd ./dllb
+cd ./scaelum
 python -m pip install -v -e .
 ```
 
