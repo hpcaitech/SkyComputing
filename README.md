@@ -23,7 +23,7 @@ Bidirectional Encoder Representations from Transformers (aka [BERT](https://acla
 
 ```shell
 cd $PROJECT
-mkdir -p bert/model && cd bert/model 
+mkdir -p BERT/model && cd BERT/model 
 wget https://storage.googleapis.com/bert_models/2019_05_30/wwm_uncased_L-24_H-1024_A-16.zip
 unzip wwm_uncased_L-24_H-1024_A-16.zip
 ```
@@ -34,7 +34,7 @@ The General Language Understanding Evaluation (aka [GLUE](https://gluebenchmark.
 
 ```shell
 cd $PROJECT
-mkdir -p bert/data && cd /bert/data
+mkdir -p BERT/data && cd BERT/data
 wget https://gist.githubusercontent.com/W4ngatang/60c2bdb54d156a41194446737ce03e2e/raw/1502038877f6a88c225a34450793fbc3ea87eaba/download_glue_data.py
 python download_glue_data.py --data_dir ./glue_data --tasks MNLI
 ```
