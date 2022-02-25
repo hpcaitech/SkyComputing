@@ -7,7 +7,7 @@ from typing import Dict
 
 import torch
 import torch.nn as nn
-from dllb.builder import build_layer
+from scaelum.builder import build_layer
 from torch import Tensor
 
 

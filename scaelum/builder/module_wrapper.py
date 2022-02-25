@@ -7,9 +7,9 @@ import time
 import psutil
 import torch
 import torch.nn as nn
-from dllb import utils as dutils
-from dllb.logger import Logger
-from dllb.timer import DistributedTimer
+from scaelum import utils as dutils
+from scaelum.logger import Logger
+from scaelum.timer import DistributedTimer
 
 from .sequential_wrapper import SequentialWrapper
 

@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from dllb.registry import LAYER
+from scaelum.registry import LAYER
 
 
 @LAYER.register_module

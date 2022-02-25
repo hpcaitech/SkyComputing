@@ -5,8 +5,8 @@ from typing import List, Dict
 
 import torch.distributed.rpc as rpc
 import torch.nn as nn
-from dllb import utils
-from dllb.builder import ModuleWrapper, build_module_from_cfg
+from scaelum import utils
+from scaelum.builder import ModuleWrapper, build_module_from_cfg
 
 
 class BaseModule(nn.Module):

@@ -3,7 +3,7 @@
 
 
 import torch.nn as nn
-from dllb.dynamics import WorkerManager
+from scaelum.dynamics import WorkerManager
 
 from .rpc_module import LocalModule, RemoteModule
 

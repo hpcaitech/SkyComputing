@@ -4,11 +4,11 @@
 
 import torch.distributed.autograd as dist_autograd
 import torch.nn as nn
-from dllb import utils as dutils, WorkerManager
-from dllb.dynamics import ParameterServer
-from dllb.logger import Logger
-from dllb.runner import Hook
-from dllb.timer import DistributedTimer
+from scaelum import utils as dutils, WorkerManager
+from scaelum.dynamics import ParameterServer
+from scaelum.logger import Logger
+from scaelum.runner import Hook
+from scaelum.timer import DistributedTimer
 from torch.distributed.optim import DistributedOptimizer
 
 

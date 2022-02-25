@@ -6,7 +6,7 @@ import os.path as osp
 import pickle
 
 import torch
-from dllb.registry import DATASET
+from scaelum.registry import DATASET
 from torch.utils.data import Dataset, TensorDataset
 
 from .glue.processor import PROCESSORS, convert_examples_to_features

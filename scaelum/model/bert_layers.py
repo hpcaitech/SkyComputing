@@ -10,7 +10,7 @@ import sys
 import torch
 import torch.nn.functional as F
 import torch.nn.init as init
-from dllb.registry import LAYER
+from scaelum.registry import LAYER
 from torch import nn
 from torch.nn import Module
 from torch.nn.parameter import Parameter

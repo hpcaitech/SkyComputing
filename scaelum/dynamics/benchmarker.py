@@ -3,11 +3,11 @@
 
 import abc
 import os
-import dllb.utils as dutils
+import scaelum.utils as dutils
 import torch
 import torch.distributed.rpc as rpc
-from dllb.builder import build_module_from_cfg, build_layer
-from dllb.dataset import BaseGenerator
+from scaelum.builder import build_module_from_cfg, build_layer
+from scaelum.dataset import BaseGenerator
 from .estimator import Estimator
 from .worker_manager import WorkerManager
 

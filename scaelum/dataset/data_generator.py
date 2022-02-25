@@ -3,8 +3,8 @@
 import abc
 
 import torch
-from dllb.builder import build_dataloader_from_cfg
-from dllb.registry import DATA_GENERATOR
+from scaelum.builder import build_dataloader_from_cfg
+from scaelum.registry import DATA_GENERATOR
 
 
 class BaseGenerator(object):

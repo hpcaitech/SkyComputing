@@ -5,7 +5,7 @@
 import os
 import os.path as osp
 
-from dllb.registry import HOOKS
+from scaelum.registry import HOOKS
 
 from ..hooks import Hook
 

@@ -6,7 +6,7 @@ from collections import OrderedDict
 import numpy as np
 import torch
 import torch.nn as nn
-from dllb import utils
+from scaelum import utils
 from pthflops import count_ops
 
 

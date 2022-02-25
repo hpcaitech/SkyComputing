@@ -2,7 +2,7 @@
 # -*- encoding: utf-8 -*-
 
 
-from dllb.registry import HOOKS
+from scaelum.registry import HOOKS
 
 from ..hooks import Hook
 

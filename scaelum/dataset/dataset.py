@@ -7,7 +7,7 @@ import random
 import torch
 import torchvision
 import torchvision.transforms as transforms
-from dllb.registry import DATASET
+from scaelum.registry import DATASET
 from torch.utils.data import Dataset
 
 

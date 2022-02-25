@@ -2,7 +2,7 @@
 # -*- encoding: utf-8 -*-
 
 
-from dllb.registry import DATA_GENERATOR, DATASET, HOOKS, LAYER, Registry
+from scaelum.registry import DATA_GENERATOR, DATASET, HOOKS, LAYER, Registry
 from torch.utils.data import DataLoader
 
 from .module_wrapper import ModuleWrapper
