@@ -6,13 +6,13 @@ import os
 import os.path as osp
 import time
 
-import dllb.utils as dutils
+import scaelum.utils as dutils
 import torch.distributed.rpc as rpc
-from dllb import build_hook, Runner, RpcModel
-from dllb.builder import build_dataloader_from_cfg, build_data_generator
-from dllb.config import load_config
-from dllb.dynamics import Allocator, WorkerManager, ParameterServer, ModelBenchmarker, DeviceBenchmarker
-from dllb.logger import Logger
+from scaelum import build_hook, Runner, RpcModel
+from scaelum.builder import build_dataloader_from_cfg, build_data_generator
+from scaelum.config import load_config
+from scaelum.dynamics import Allocator, WorkerManager, ParameterServer, ModelBenchmarker, DeviceBenchmarker
+from scaelum.logger import Logger
 from torch import optim
 from torch.distributed.optim import DistributedOptimizer
 

@@ -1,7 +1,7 @@
 import math
 import os.path as osp
 import os
-from dllb.model.bert import BertConfig
+from scaelum.model.bert import BertConfig
 import numpy as np
 
 # project path
