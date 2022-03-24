@@ -4,7 +4,7 @@
 
 Sky Computing is a load-balanced framework for federated learning model parallelism. It adaptively allocate model layers to devices based on the their hardware sepcification. Sky Computing outperforms the baseline method by 55% in training time when training 160-layer BERT in a 64-node cluster. Our paper can be found at https://arxiv.org/abs/2202.11836
 
-The concept *sky computing* was first introduced by Katarzyna Keahey et al. They used this word to describe a cross-cloud compute pattern. And later Prof. Stoica generalized this word to the geo-distributed computing. Our project is based on his definition. [\[1\]](https://ieeexplore.ieee.org/abstract/document/5226615) [\[2\]](https://dl.acm.org/doi/abs/10.1145/3458336.3465301)
+The concept *sky computing* was first introduced by Dr. Katarzyna Keahey et al. They used this word to describe a cross-cloud compute pattern. And later Prof. Stoica Prof. Scott Shenker generalized this word to the geo-distributed computing. Our project is based on his definition. [\[1\]](https://ieeexplore.ieee.org/abstract/document/5226615) [\[2\]](https://dl.acm.org/doi/abs/10.1145/3458336.3465301)
 
 ## Installation
 
