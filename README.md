@@ -4,6 +4,8 @@
 
 Sky Computing is a load-balanced framework for federated learning model parallelism. It adaptively allocate model layers to devices based on the their hardware sepcification. Sky Computing outperforms the baseline method by 55% in training time when training 160-layer BERT in a 64-node cluster. Our paper can be found at https://arxiv.org/abs/2202.11836
 
+The concept *sky computing* was first introduced by Katarzyna Keahey et al. They used this word to describe a cross-cloud compute pattern. And later Prof. Stoica generalized this word to the geo-distributed computing. Our project is based on his definition.
+
 ## Installation
 
 ```shell
@@ -83,5 +85,27 @@ srun python ./launch.py -c "./experiment/config.py"
       eprint={2202.11836},
       archivePrefix={arXiv},
       primaryClass={cs.LG}
+}
+```
+
+## Reference
+
+```tex
+@article{keahey2009sky,
+  title={Sky computing},
+  author={Keahey, Katarzyna and Tsugawa, Mauricio and Matsunaga, Andrea and Fortes, Jose},
+  journal={IEEE Internet Computing},
+  volume={13},
+  number={5},
+  pages={43--51},
+  year={2009},
+  publisher={IEEE}
+}
+@inproceedings{stoica2021cloud,
+  title={From cloud computing to sky computing},
+  author={Stoica, Ion and Shenker, Scott},
+  booktitle={Proceedings of the Workshop on Hot Topics in Operating Systems},
+  pages={26--32},
+  year={2021}
 }
 ```
